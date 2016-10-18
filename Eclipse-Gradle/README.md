@@ -1,3 +1,26 @@
+### Setting up IDE
+
+Eclipse Java EE IDE for Web Developers.
+
+Version: Mars.2 Release (4.5.2)
+Build id: 20160218-0600
+
+**Getting Eclipse plugins for Gradle**
+
+http://projects.eclipse.org/projects/tools.buildship/downloads
+
+![](_misc/Installing%20Gradle%20in%20Eclipse.png)
+
+**Getting ADT**
+
+https://marketplace.eclipse.org/content/android-development-tools-eclipse
+
+![](_misc/Installing%20ADT.png)
+
+![](_misc/Error%20on%20reloading%20eclipse%20after%20installing%20ADT.png)
+
+![](_misc/Error%20after%20relaunching%20eclipe%20after%20installing%20ADT.png)
+
 ### Project Creation
 
 Download the "Setup App" from https://libgdx.badlogicgames.com/download.html to "~/software/LibGDX"
@@ -20,7 +43,6 @@ extensions ... the extensions to include in the project separated by ';'. Option
 ```
 
 ![](_misc/LibGDX%20Project%20Generator.png)
-
 
 ![](_misc/Advanced%20Settings.png)
 
@@ -268,3 +290,36 @@ To import to Intellij IDEA: File -> Open -> YourProject.ipr
 
 78 directories, 89 files
 ```
+
+### Importing Project into Eclipse
+
+Created a directory "/home/droid/Documents/scratchpad/Eclipse-Workspace/LibGDX" so it can be used as an Eclipse workspace
+
+Open Eclipse with the newly created directory as workspace
+
+
+![](_misc/Import%20a%20Gradle%20project.png)
+
+![](_misc/Selecting%20the%20Gradle%20Project.png)
+
+![](_misc/Choosing%20import%20options.png)
+
+![](_misc/Import%20Preview.png)
+
+![](_misc/Import%20Preview%20-%20After.png)
+
+![](_misc/Import%20Preview%20-%20Warning.png)
+
+Hit "Back" and select another version of Gradle
+
+![](_misc/Selecting%20Gradle%203.1.png)
+
+![](_misc/After%20setting%20Gradle%20version%20to%203.1.png)
+
+![](_misc/Error%20with%20Gradle%203.1.png)
+
+Hit "Back" and proceed with default "Gradle Wrapper" selection and hit "Finish"
+
+![](_misc/Message%20on%20pressing%20finish.png)
+
+
