@@ -92,3 +92,179 @@ Done!
 To import in Eclipse: File -> Import -> General -> Existing Projects into Workspace
 To import to Intellij IDEA: File -> Open -> YourProject.ipr
 ```
+
+### Project Contents
+
+```sh
+~/onGit/LibGDX-Templates/Eclipse-Gradle$ tree
+.
+├── android
+│   ├── AndroidManifest.xml
+│   ├── assets
+│   │   └── badlogic.jpg
+│   ├── build.gradle
+│   ├── ic_launcher-web.png
+│   ├── libs
+│   │   ├── arm64-v8a
+│   │   │   └── libgdx.so
+│   │   ├── armeabi
+│   │   │   └── libgdx.so
+│   │   ├── armeabi-v7a
+│   │   │   └── libgdx.so
+│   │   ├── x86
+│   │   │   └── libgdx.so
+│   │   └── x86_64
+│   │       └── libgdx.so
+│   ├── proguard-project.txt
+│   ├── project.properties
+│   ├── res
+│   │   ├── drawable-hdpi
+│   │   │   └── ic_launcher.png
+│   │   ├── drawable-mdpi
+│   │   │   └── ic_launcher.png
+│   │   ├── drawable-xhdpi
+│   │   │   └── ic_launcher.png
+│   │   ├── drawable-xxhdpi
+│   │   │   └── ic_launcher.png
+│   │   ├── drawable-xxxhdpi
+│   │   │   └── ic_launcher.png
+│   │   └── values
+│   │       ├── strings.xml
+│   │       └── styles.xml
+│   └── src
+│       └── com
+│           └── mygdx
+│               └── game
+│                   └── AndroidLauncher.java
+├── build.gradle
+├── core
+│   ├── build
+│   │   ├── classes
+│   │   │   └── main
+│   │   │       └── com
+│   │   │           └── mygdx
+│   │   │               └── game
+│   │   │                   └── MyGdxGame.class
+│   │   ├── dependency-cache
+│   │   ├── libs
+│   │   │   └── core-1.0.jar
+│   │   └── tmp
+│   │       ├── compileJava
+│   │       │   └── emptySourcePathRef
+│   │       └── jar
+│   │           └── MANIFEST.MF
+│   ├── build.gradle
+│   └── src
+│       ├── com
+│       │   └── mygdx
+│       │       └── game
+│       │           └── MyGdxGame.java
+│       └── MyGdxGame.gwt.xml
+├── desktop
+│   ├── build.gradle
+│   └── src
+│       └── com
+│           └── mygdx
+│               └── game
+│                   └── desktop
+│                       └── DesktopLauncher.java
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── html
+│   ├── build
+│   │   ├── classes
+│   │   │   └── main
+│   │   │       └── com
+│   │   │           └── mygdx
+│   │   │               └── game
+│   │   │                   └── client
+│   │   │                       └── HtmlLauncher.class
+│   │   ├── dependency-cache
+│   │   └── tmp
+│   │       └── compileJava
+│   │           └── emptySourcePathRef
+│   ├── build.gradle
+│   ├── src
+│   │   └── com
+│   │       └── mygdx
+│   │           └── game
+│   │               ├── client
+│   │               │   └── HtmlLauncher.java
+│   │               ├── GdxDefinition.gwt.xml
+│   │               └── GdxDefinitionSuperdev.gwt.xml
+│   ├── war
+│   │   ├── index.html
+│   │   ├── refresh.png
+│   │   ├── soundmanager2-jsmin.js
+│   │   ├── soundmanager2-setup.js
+│   │   ├── styles.css
+│   │   └── WEB-INF
+│   │       ├── classes
+│   │       │   └── com
+│   │       │       └── mygdx
+│   │       │           └── game
+│   │       │               └── client
+│   │       │                   └── HtmlLauncher.class
+│   │       ├── lib
+│   │       │   ├── core-1.0.jar
+│   │       │   ├── gdx-1.9.4.jar
+│   │       │   ├── gdx-1.9.4-sources.jar
+│   │       │   ├── gdx-backend-gwt-1.9.4.jar
+│   │       │   ├── gdx-backend-gwt-1.9.4-sources.jar
+│   │       │   ├── gwt-servlet-2.6.0.jar
+│   │       │   ├── gwt-user-2.6.1.jar
+│   │       │   ├── json-20090211.jar
+│   │       │   ├── validation-api-1.0.0.GA.jar
+│   │       │   └── validation-api-1.0.0.GA-sources.jar
+│   │       └── web.xml
+│   └── webapp
+│       ├── index.html
+│       ├── refresh.png
+│       ├── soundmanager2-jsmin.js
+│       ├── soundmanager2-setup.js
+│       ├── styles.css
+│       └── WEB-INF
+│           └── web.xml
+├── ios
+│   ├── build.gradle
+│   ├── data
+│   │   ├── Default-1024w-1366h@2x~ipad.png
+│   │   ├── Default@2x~ipad.png
+│   │   ├── Default@2x.png
+│   │   ├── Default-375w-667h@2x.png
+│   │   ├── Default-414w-736h@3x.png
+│   │   ├── Default-568h@2x.png
+│   │   ├── Default~ipad.png
+│   │   ├── Default.png
+│   │   ├── Icon@2x.png
+│   │   ├── Icon-72@2x.png
+│   │   ├── Icon-72.png
+│   │   └── Icon.png
+│   ├── Info.plist.xml
+│   ├── robovm.properties
+│   ├── robovm.xml
+│   └── src
+│       └── com
+│           └── mygdx
+│               └── game
+│                   └── IOSLauncher.java
+├── local.properties
+├── _misc
+│   ├── Advanced Settings - Choosing Eclipse.png
+│   ├── Advanced Settings.png
+│   ├── After generating the project.png
+│   ├── LibGDX Project Generator.png
+│   ├── Message about Android API.png
+│   ├── Using build tools message.png
+│   ├── Warning about Android API.png
+│   └── Warning.png
+├── README.md
+└── settings.gradle
+
+78 directories, 89 files
+```
