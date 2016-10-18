@@ -324,4 +324,8 @@ Select "Keep" in the following dialog
 
 ![](_misc/Message%20on%20pressing%20finish.png)
 
+### Project contents as seen in Project Explorer
+
+![](_misc/Project%20Contents.png)
+
 
