@@ -320,6 +320,8 @@ Hit "Back" and select another version of Gradle
 
 Hit "Back" and proceed with default "Gradle Wrapper" selection and hit "Finish"
 
+Select "Keep" in the following dialog
+
 ![](_misc/Message%20on%20pressing%20finish.png)
 
 
