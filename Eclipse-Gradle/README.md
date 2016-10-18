@@ -26,13 +26,13 @@ extensions ... the extensions to include in the project separated by ';'. Option
 
 ![](_misc/Advanced%20Settings%20-%20Choosing%20Eclipse.png)
 
-![](_misc/Using%20build%20tools%20message.png)
-
 ![](_misc/Warning.png)
 
-![](_misc/Message%20about%20Android%20API.png)
+![](_misc/Using%20build%20tools%20message.png)
 
 ![](_misc/Warning%20about%20Android%20API.png)
+
+![](_misc/Message%20about%20Android%20API.png)
 
 ![](_misc/After%20generating%20the%20project.png)
 
